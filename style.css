@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather Sans", sans-serif;
+
+
+}
+
+.mainContainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pathBox {
+    display: flex;
+    align-items: center;
+    gap: 15px !important;
+    text-decoration: none;
+}
+
+.pathBox a {
+    text-decoration: none;
+    color: #182c72;
+    font-weight: 500;
+    font-size: 18px;
+    transition: .4s ease;
+}
+
+.pathBox a:hover {
+    color: #394880;
+    font-size: 15px;
+    transition: .4s ease;
+}
+
+.callBox p {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.callBox b {
+    font-size: 15px;
+    font-weight: 500 !important;
+    color: #F7BE94;
+}
+
+.FlowersBg {
+    background-image: url(./img/bouquet-white-peonies-chamomiles-iris-flowers-glass-vase-summer-background_422666-2645.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+.leftAside {
+    width: 400px;
+    padding: 80px 20px;
+    background-color: #ffffffe3;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0 50px !important;
+
+}
+
+.leftAside h2 {
+    font-size: 30px;
+    font-weight: 700 !important;
+    color: #182c72;
+    font-style: normal;
+    width: 100%;
+    text-align: start;
+
+}
+
+.leftAside p {
+    color: #585756;
+}
+
+.leftAside button {
+    width: 150px;
+    background-color: #05ae58;
+    padding: 10px 0;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.leftAside button:hover {
+    color: black;
+    background-color: gainsboro;
+    transition: .4s ease;
+}
+
+.AboutUs,
+.OurOffers,
+.Gallery {
+    text-align: center;
+}
+
+.AboutUs h3,
+.OurOffers h3,
+.Gallery h3 {
+    color: #F7BE94;
+    font-size: 22px;
+
+}
+
+.AboutUs h4,
+.OurOffers h4,
+.Gallery h4 {
+    font-size: 25px;
+    color: #182c72;
+    word-spacing: 5px;
+
+    font-weight: 600;
+}
+
+.AboutUs p,
+.OurOffers p,
+.Gallery p {
+    font-size: 16px !important;
+    color: #585756;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+
+.AboutUs img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.videoBox {
+    background-color: #05ae58;
+    padding-bottom: 100px;
+}
+
+.video {
+    width: 100%;
+}
+
+.FlexBloks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px !important;
+}
+
+hr {
+    background-color: #F7BE94 !important;
+    border: none;
+    height: 2px;
+
+}
+
+.firstBlock,
+.secondBlock,
+.thirdBlock {
+    font-size: 25px;
+    color: white;
+}
+
+.firstBlock p,
+.secondBlock p,
+.thirdBlock p {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Два столбца */
+    gap: 20px;
+    /* Расстояние между элементами */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.twoFlowersIMg {
+    margin-top: 50px !important;
+}
+
+.wide,
+.fiveFlowersIMg {
+    margin-top: -50px;
+}
+
+
+.footerBox {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBox h1 {
+    color: #05ae58;
+    letter-spacing: 1px;
+    /* Отступ между буквами */
+    word-spacing: 8px;
+    /* Отступ между словами */
+
+}
+
+.footerBox button {
+    width: 167px;
+    padding: 15px 0;
+    border: 0;
+    background-color: #05ae58;
+    color: white;
+    transition: .4s ease;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.footerBox button:hover {
+    background-color: gainsboro;
+    transition: .4s ease;
+    color: black;
+}
+
+
+.list1 {
+    position: absolute;
+    top: -10%;
+    right: 30%;
+}
+
+.list2 {
+    position: absolute;
+    bottom: -10%;
+    left: 7%;
+}
+
+.list3 {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+}
